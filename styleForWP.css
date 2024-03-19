@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width : 100%;
+}
+
+#table{
+    width : 100%;
+}
+#bar{
+    height : 80px;
+    width: 100%;
+    PADDING: 3PX;
+    margin-bottom: 10PX;
+    margin-top: 10PX;
+    background-color: rgb(94, 19, 164);
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+}
+#name{
+    font-size: 30px;
+    text-align: left;
+}
+#FIRSTBAR{
+    padding: 10PX;
+    padding-bottom: 10PX;
+}
+#button{
+    justify-content: center;
+    align-items: center;
+}
+
+#table a{
+    color: beige;
+    text-decoration : none;
+}
+
+#about #aboutFirst{
+    font-size: 30px;
+    color: rgb(205, 201, 215);
+    font-family: Arial, Helvetica, sans-serif ;
+    padding: 5px;
+    margin-bottom: 0px;
+    background-color: rgb(53, 3, 97);
+}
+
+#about #about2nd{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    position: relative;
+    color : rgb(205, 201, 215);
+}
+
+#about{
+    background-color: rgb(104, 0, 194);
+}
+
+#about #instagram{
+    position: absolute;
+    height: 120px;
+    width : 120px;
+    left: 990px;
+    top: 3330px;
+}
+
+#about #linkedin{
+    position: absolute;
+    height: 90px;
+    width : 90px;
+    left: 1190px;
+    top: 3345px;
+}
+
+#about #twitter{
+    position: absolute;
+    height: 90px;
+    width : 90px;
+    left: 1350px;
+    top: 3345px;
+}
