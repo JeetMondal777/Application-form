@@ -50,17 +50,21 @@ html,body{
 }
 
 #about #about2nd{
+    width: 100%;
     margin-top: 0px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 10px;
     padding-left: 10px;
-    position: relative;
+    position: absolute;
+    background-color: rgb(104, 0, 194);
     color : rgb(205, 201, 215);
 }
 
 #about{
     background-color: rgb(104, 0, 194);
+    position: relative;
+    
 }
 
 #about #instagram{
@@ -68,7 +72,7 @@ html,body{
     height: 120px;
     width : 120px;
     left: 990px;
-    top: 3330px;
+    top: 42px;
 }
 
 #about #linkedin{
@@ -76,7 +80,7 @@ html,body{
     height: 90px;
     width : 90px;
     left: 1190px;
-    top: 3345px;
+    top: 60px;
 }
 
 #about #twitter{
@@ -84,5 +88,5 @@ html,body{
     height: 90px;
     width : 90px;
     left: 1350px;
-    top: 3345px;
+    top: 60px;
 }
